@@ -1,0 +1,349 @@
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 1		start to end		Rules, Cautions, Motivation, Frustations, Direction, Story of Previous batches
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 2		start to 0:05:00	General Discussion
+		0:05:01 to 01:04:35	Version Control & Git Overview
+		01:04:36 to 01:29:00	Generating SSH Key using putty
+		01:29:01 to 01:53:50	Generating SSH Key using command line
+		01:53:51 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 3		start to 0:50:50	General Discussion & Class Test (MCQ & Code)
+		0:50:51 to 01:08:04	Creating branch on github (+ how to change putty key)
+		01:08:05 to 01:24:46	Merging branch on github
+		01:24:47 to end		Version Controlling (Git Flow)
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 4		start to 0:09:30	General Discussion & Class Test
+		0:09:31 to 0:33:50	Linq
+		0:33:51 to 01:04:25	Delegates
+		01:04:26 to 01:38:00	Events & Threading
+		01:38:01 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 5		start to 0:11:20	General Discussion & Class Test
+		0:11:21 to 0:23:30	New feature of C#7
+					-- Tuple and Discards
+					-- Pattern Matching
+					-- async Main Method
+					-- Local Functions
+					-- throw Expressions
+					-- private proctected Access Modifier
+		0:23:31 to 0:42:42	New feature of C#8
+					-- Default Interface Methods
+					-- Switch Expressions
+					-- Using declarations
+					-- Nullable reference types
+					-- Indices and Ranges
+					-- Null-Coalescing assignment
+		0:42:43 to 0:58:45	New feature of C#9
+					-- Records
+					-- Init Only Setters
+					-- Top level statements
+					-- Extending Partial Methods
+		0:58:46 to 01:11:10	New feature of C#10
+					-- Record structs
+					-- global using directives
+					-- File-scoped namespace declaration
+					-- Record types can seal ToString
+		01:11:11 to 01:47:36	Reflection
+		01:47:37 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 6		start to 0:04:00	General Discussion
+		0:04:01 to 01:24:00	Reflection Again (+ experiment on Interface)
+		01:24:01 to 01:37:20	Introduction of Assignment 1
+		01:37:21 to 01:56:00	Expression
+		01:56:01 to end		Story of malpractice in software industry and Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 7		start to 0:28:00	Cautions, Motivations, Reality of Internship at Devskill
+		0:28:01 to 0:35:00	Clarification on Assignment 1
+		0:35:01 to 01:15:00	Collections and Q&A on Collections
+		01:15:01 to 1:51:14	Custom Collection
+		1:51:15 to 2:11:17	Introduction to ASPDotNet
+		2:11:18 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 8		start to 0:08:20	Q&A
+		0:08:21 to 0:18:00	General Discussion
+		0:18:01 to 0:34:20	MVC Overview
+		0:34:21 to 01:01:30	Introduction to Controller
+		01:01:31 to 01:49:00	Introduction to View
+		01:49:01 to 02:12:00	Introduction to Model
+		2:12:01 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 9		start to 0:21:50	General Discussion
+		0:21:51 to 0:57:48	Introduction to Area
+		0:57:49 to 01:11:53	View of Area
+		01:11:54 to 01:32:19	Dependancy Injection
+		01:32:20 to 02:03:30	Autofac Integration & Implement Dependancy Injection using Autofac
+		02:03:31 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 10	start to 0:27:44	Inversion of Control (IoC)
+		0:27:45 to 0:32:00	Golpo (Group of Software Architect)
+		0:32:01 to 01:37:48	Golpo (Logger & Functional Programming), SeriLog Integration & Life Cycle (analysis of Program.cs)
+		01:37:48 to 01:59:33	Q&A
+		01:59:34 to end		What is Functional Programming?
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 11	start to 0:20:00	General Discussion
+		0:20:01 to 0:44:00	HTML Helper
+		0:44:01 to 0:50:05	Motivation
+		0:50:06 to 01:00:45	Q&A
+		01:00:46 to 01:44:08	SQL Server [create database, query, backup database, create user]
+		01:44:08 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 12	start to 0:11:30	General Discussion & Q&A
+		0:11:31 to 0:42:20	Stored Procedure
+		0:42:21 to end		Concept of Dynamic SQL and Paging
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 13	start to 0:14:10	General Discussion & Q&A
+		0:14:11 to 0:27:55	Introduction to Bootstrap
+		0:27:56 to 0:33:50	General Discussion & Q&A
+		0:33:51 to 0:54:57	Introduction to AdminLTE theme
+		0:54:58 to 02:06:45	Integrating AdminLTE theme
+		02:06:46 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 14	start to 0:10:32	General Discussion & Q&A
+		0:10:33 to 0:55:30	SASS
+		0:55:31 to 01:53:48	Typescript (+ Frustations on students condition)
+		01:53:49 to end		Q&A 
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 15	start to 0:07:30	General Discussion & Q&A
+		0:07:31 to 01:17:15	Typescript (continued) (+ Frustations on student's condition and Job industry)
+		01:17:16 to 01:24:24	Q&A and What is Ado.net?
+		01:24:25 to end		Data insert using Ado.net
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 16	start to 0:08:35	Q&A & General Discussion
+		0:08:36 to 01:14:25	Read data using Ado.net & Q&A
+		01:14:26 to 02:04:00	Get data using DataSet
+		02:04:01 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 17	start to 0:18:30	General Discussion & Q&A
+		0:18:31 to 0:43:20	High Level Architecture of MVC [**Very Important**]
+		0:43:21 to 01:31:00	Entity Framework Configuration [**Very Important**] (+ how to change project name [01:09:30])
+					-- Create a code library project
+					-- Then create a DbContext class
+					-- Override OnConfiguring class
+					-- Then create a Entity class
+					-- Then connect entity class to DbContext class
+					-- Then binding these classes using autofac in Module class
+					-- Then binding this module in Program.cs
+					-- Then finally binding DbContext in Program.cs for migration
+		01:31:01 to 01:40:30 	Generating migration
+		01:40:31 to end		Creating database table using migration and adding data on table
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 18	start to 0:10:30	General Discussion & Q&A
+		0:10:31 to 0:33:35	What is Repository Pattern? [**Very Important**] (+ What is ORM?)
+		0:33:36 to 01:01:50	What is UnitOfWork Pattern? and Q&A
+		01:01:51 to 01:24:07	Implementation of Repository
+		01:24:08 to 01:27:50	Implementation of UnitOfWork
+		01:27:51 to 01:51:20	Use of UnitOfWork and Repository
+		01:51:21 to 02:15:43	Creating Service Layer (+ Business Object)
+		02:15:44 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 19	start to 0:34:00	Cautions, Motivation, Frustations, Class Test & Q&A
+		0:34:01 to 0:56:15	Setting up for Implementing CRUD (creating controller, view)
+		0:56:16 to end		Start of implementing CRUD (Create on single table)
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 20	start to 0:06:30	Types of Validation (Server Side & Client Side)
+		0:06:31 to 01:05:20	Adding Client Side Validation & Exception Message
+		01:05:21 to 01:56:48	Adding DataTable to show data (Read on single table)
+		01:56:49 to end		Q&A (+ overview)
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 21	start to 0:14:30	Q&A and General Discussion
+		0:14:31 to 02:01:47	Assignment 4 (Demo)
+		02:01:48 to end		General Discussion on Student's work
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 22	start to 0:08:00	Q&A
+		0:08:01 to 01:04:10	Update on single table
+		01:04:11 to 01:37:27	Delete on single table
+		01:37:28 to 01:55:11	One to Many Relationship using both classical way and Fluent API
+		01:55:12 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 23	start to 0:09:55	General Discussion
+		0:09:56 to 01:03:50 	AutoMapper integration (+ creating profile)
+		01:03:51 to 01:12:45	One to Many Relationship (Fluent API)
+		01:12:46 to 01:41:37	Many to Many Relationship (Fluent API)
+		01:41:38 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 24	start to 0:09:10	Review of added code to existing CRUD
+		0:09:11 to 01:06:54	Applying many to many relationship in CRUD
+		01:06:55 to 01:11:50	Syllabus overview (+ what is data seeding?)
+		01:11:51 to 01:22:25	One to Many relationship in CRUD
+		01:22:26 to 01:35:23	SQL Injection
+		01:35:24 to 01:46:40	CSRF
+		01:46:41 to end		Script Injection
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 25	start to 0:22:07	Q&A and General Discussion
+		0:22:08 to 0:24:40	Added code review (adding multiple topic)
+		0:24:41 to 0:37:40	Lifetimescope
+		0:37:41 to 0:50:42	DDoS
+		0:50:43 to 0:56:34	Importance of SSL Certificate & Https
+		0:56:35 to 01:05:56	Database Backup, Error Logging, Encrypting to minimize damage
+		01:05:57 to 01:42:08	Data seeding
+		01:42:09 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 26	start to 0:07:35	General Discussion & Class Test
+		0:07:36 to 0:20:35	Initial stage of Identity framework
+		0:20:36 to 0:56:20	Analysis of Default UI (+ Existing code review)
+		0:56:21 to 01:57:42	Converting existing default UI MVVM code to MVC code
+		01:57:43 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 27	start to 0:34:40	Inside story of Job life at Devskill and Q&A
+		0:34:41 to 0:48:40	Extending TempData (code review)
+		0:48:41 to 0:56:25	Frustrations on Assignment 5
+		0:56:26 to 01:04:00	Q&A
+		01:04:01 to 02:10:42	Customizing Identity (Creating Class Library [membership])
+		02:10:43 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 28	start to 0:04:25	Q&A
+		0:04:26 to 0:17:55	Troubleshooting mother project
+		0:17:56 to 0:41:52	Configuring Login
+		0:41:53 to 0:53:00	Customizing Registration
+		0:53:01 to 01:00:15	Discussion on Final Project and Q&A
+		01:00:16 to 01:13:00	Reviewing Customizing Registration and Configuring Login
+		01:13:01 to 01:14:54	Difference between authentication and authorization
+		01:14:55 to 01:16:46	Different types of authorization
+		01:16:47 to 01:46:56	Role based authorization
+		01:46:57 to end		Q&A and Discussion on devskill v2.0
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 29	start to 0:07:37	Q&A and General Discussion
+		0:07:38 to 0:30:30	Policy based authorization
+		0:30:31 to 0:58:45	Claim based authorization
+		0:58:46 to 01:11:37	Q&A and General Discussion
+		01:11:38 to 01:14:51	What is Web Service?
+		01:14:52 to 01:23:06	What is Web API?
+		01:23:07 to 01:40:00	Building a Web API
+		01:40:01 to 01:44:50	Use of Postman
+		01:44:51 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 30	start to 0:03:32	Q&A and General Discussion
+		0:03:33 to 01:17:45	Object Oriented Principles and Patterns (OOD Principles)
+					-- Difference between OOP and OOD
+					-- SOLID Principles
+					-- DRY Principles
+					-- Encapsulate what changes
+					-- Favor composition over inheritance
+					-- Programming for interface
+					-- Delegation Principles
+		01:17:46 to 01:33:43	Code review of previous student for checking violations of OOD principles
+		01:33:44 to end		Q&A and General Discussion
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 31	start to 0:06:26	Introduction for code review and Q&A
+		0:06:27 to 0:54:23	Authorization and Authentication in Web API (code review) [What is CORS? 0:32:41]
+		0:54:24 to end		Q&A and General Discussion
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 32	start to 0:10:19	Q&A and General Discussion
+		0:10:20 to 0:27:07	Configuring Web API inside MVC project
+		0:27:08 to 0:51:04	Q&A and General Discussion
+		0:51:05 to 01:02:22	Introduction to Worker Service
+		01:02:23 to 01:14:20	Serilog integration into worker service
+		01:14:21 to 01:17:05	Autofac and Windows Services integration into worker service
+		01:17:06 to 01:25:55	Publishing, Installing and Uninstalling the worker service
+		01:25:56 to 01:29:07	General Discussion on worker service
+		01:29:08 to end		Experimenting worker service using Mail Sender
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 33	start to 0:30:51	Discussion on class time in Ramadan, Final Project, Assignment 6 and Q&A
+		0:30:52 to 01:01:21	Experimenting worker service using Mail Sender (continued) and Q&A
+		01:01:22 to 01:46:35	Introduction to Docker [**Very Important**]
+		01:46:36 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 34	start to 0:05:33	Q&A and General Discussion
+		0:05:34 to 0:16:15	How to find Sql Server Configuration Manager
+		0:16:16 to 0:20:00 	How to connect sql server with localhost (For using sql server from docker container)
+		0:20:01 to 01:12:34	Dockerizing a project
+					-- Creating dockerfile
+					-- how to create log file
+					-- debugging for connection string
+		01:12:35 to 01:18:20	Q&A and General Discussion
+		01:18:21 to 01:40:00	Docker Compose and web.env (For setting environment variable)
+		01:40:01 to 01:46:40	How to push image into docker hub
+		01:46:41 to end		General Discussion
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 35	start to 0:09:33	Q&A and General Discussion
+		0:09:34 to 0:13:52	Different types of testing
+		0:13:53 to 0:21:01	Setting up test project
+		0:21:02 to 0:32:17	Understanding the testing
+		0:32:18 to 01:20:23	Writing tests
+		01:20:24 to end		Writing test for exception
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 36	start to end		Details of Final Project
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 37	start to 0:27:56	Q&A and General Discussion
+		0:27:57 to 0:40:50	Discussion on existing test code
+		0:40:51 to 0:47:14	Advantages and challenges of writing test code
+		0:47:15 to 01:04:57	Use of Shouldly and writing another test
+		01:04:58 to 01:12:37	What is code coverage and DTO (Data Transfer Object)
+		01:12:38 to end		Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 38	start to 0:23:10	What is agile process & scrum?
+		0:23:11 to 0:42:26	Use case diagram		
+		0:42:27 to 01:07:32	Class diagram
+		01:07:33 to 01:13:07	What is code smell?
+		01:13:08 to 01:21:10	Sequence diagram
+		01:21:11 to 01:30:00	Class Test & General Discussion
+		01:30:01 to end		How to resolve conflict?
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 39	start to 0:33:06	Showcasing Assignment 6
+		0:33:07 to 0:50:20	Reviewing progress of final project
+		0:50:21 to 01:08:53	Singleton Design Pattern
+		01:08:54 to 01:21:53	Prototype Design Pattern
+		01:21:54 to 01:35:58	Builder Design Pattern
+		01:35:59 to end		Factory Design Pattern
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 40	start to 0:31:20	General Discussion, Q&A and Showcasing Assignment 6 (Rest)
+		0:31:21 to 0:59:40	Abstract Factory Design Pattern
+		0:59:41 to 01:04:00	Recap of Creational Design Pattern
+		01:04:01 to 01:20:15	General Discussion on Cloud computing
+		01:20:16 to 01:29:15	Introduction to AWS
+		01:29:16 to end		Creating Server on AWS (windows)
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 41	start to 0:17:00	Discussion and code review of CORS
+		0:17:01 to 0:29:25	Creating Server on AWS (again)
+		0:29:26 to 0:38:45	Difference between shared, dedicated and cloud hosting
+		0:38:46 to 0:50:50	Configuring virtual machine (Windows)
+		0:50:51 to 01:04:31	Creating another Server on AWS (linux)
+		01:04:32 to 01:16:24	Running windows server
+		01:16:25 to 01:50:30	Load Balancing
+		01:50:31 to end		General Discussion on usage of AWS at job
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 42	start to 0:16:00	Reviewing code of Advanced Search
+		0:16:01 to 01:33:10	Auto Scaling
+		01:33:11 to 01:52:50	What is SQS?
+		01:52:51 to end		Completing deletion of Auto Scaling
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 43	start to 0:24:05	Creating Dead Letter Queue (Using Panel)
+		0:24:06 to 0:59:00	Creating S3 Bucket (Using Panel)
+		0:59:01 to end		What is IAM?
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 44	start to 0:23:45	What is Microservice?
+		0:23:46 to 01:15:40	Introduction to DynamoDB
+		01:15:41 to 01:21:55	IaaS, PaaS, SaaS
+		01:21:56 to 01:25:05	AWS Documentation
+		01:25:06 to end		AWS CLI
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 45	start to 0:06:20	General Discussion
+		0:06:21 to 0:13:00	Creating User using IAM (using panel)
+		0:13:01 to 0:41:42	Creating SQS (using code)
+		0:41:43 to 01:00:45	Creating DynamoDB Database (using code)
+		01:00:46 to 01:34:00	Creating S3 Bucket (using code)
+		01:34:01 to end		How to write a good CV
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 46	start to 0:01:55	General Discussion
+		0:01:56 to 0:17:00	What is SPA and Angular Framework?
+		0:17:01 to 01:49:00	Creating a Angular site
+					-- creating component
+					-- creating button
+					-- creating service to return static data while clicking button
+					-- retrieve data using ajax
+					-- connecting to back end and retrieve data using api
+		01:49:01 to end		Q&A and General Discussion
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 47	start to 0:36:55	Final Project show of Team D
+		0:36:56 to 0:47:50	Final Project show of Team C
+		0:47:51 to 0:57:00	Final Project show of Team A
+		0:57:01 to 01:00:21	Class Test
+		01:00:22 to 01:39:30	Final Project show of Team B
+		01:39:31 to end		Team D shows another feature
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 48	start to 0:04:54	General Discussion
+		0:04:55 to 0:18:26 	What is Multi-Tenancy (Multi-Tenant Architecture)?
+		0:18:27 to 0:52:20	Code review (Final Project) of Team B
+		0:52:21 to 01:29:27	Code review (Final Project) of Team D
+		01:29:28 to end		Farewell Speech
+---------------------------------------------------------------------------------------------------------------------------------------------
