@@ -20,7 +20,8 @@ MVC, API, Worker Service প্রতিটিই হচ্ছে startable proj
 
 ### কনফ্লিক্ট কিভাবে দেখায়?
 
-```<<<<< Name of first file
+```
+<<<<< Name of first file
 Message from first file
 ========
 Message from second file
