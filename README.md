@@ -59,7 +59,8 @@ select object
 আমরা সাধারণত প্রোগ্রামিং ল্যাঙ্গুয়েজে ভ্যারিয়েবল ব্যবহার করি ডাটা ধরে স্টোর করার জন্য। অনেক সময় ভ্যারিয়েবলে লজিক বা মেথড স্টোর করারও দরকার পড়ে। এজন্য আমরা Delegates ব্যবহার করে থাকি। Delegates ডিক্লেয়ার করার জন্য মেথডের সিগনেচার লিখতে হয়। Delegates এর নতুন ফর্ম হচ্ছে Function-Action। এক্ষেত্রে মেথডের সিগনেচার লিখার দরকার পড়েনা। ভয়েড মেথডের ক্ষেত্রে Action লিখা লাগে এবং অ্যাঙ্গেল ব্র্যাকেটের মধ্যে প্যারামিটারের ডাটা টাইপ লিখতে হয়। অন্যদিকে যে মেথডের রিটার্ন টাইপ আছে সেক্ষেত্রে Func লিখতে হয় এবং অ্যাঙ্গেল ব্র্যাকেটের মধ্যে প্যারামিটারের ডাটা টাইপ লিখতে হয় সাথে সবশেষে রিটার্ন টাইপ লিখতে হয়।
 
 ```
-Events enable a class or object to notify other classes or objects when something of interest occurs. The class that sends (or raises) the event is called the publisher and the classes that receive (or handle) the event are called subscribers.
+Events enable a class or object to notify other classes or objects when something of interest occurs.
+The class that sends (or raises) the event is called the publisher and the classes that receive (or handle) the event are called subscribers.
 ```
 
 ### Web Service ‍& Web API (Application Programming Interface)
