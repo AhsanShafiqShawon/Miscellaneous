@@ -63,9 +63,25 @@ Events enable a class or object to notify other classes or objects when somethin
 The class that sends (or raises) the event is called the publisher and the classes that receive (or handle) the event are called subscribers.
 ```
 
+### Colletions
+
+Generic ও Non Generic টাইপের বেশ কিছু Collection আছে। যেমন: Generic এর মধ্যে রয়েছে List, Dictionary, HashSet, Stack, Queue, SortedList, SortedDictionary, SortedSet ইত্যাদি। আর Non Generic এর মধ্যে রয়েছে ArrayList, Stack, Queue, HashTable, SortedList, NameValueCollection ইত্যাদি। Generic ও Non Generic এর মধ্যে পার্থক্য হচ্ছে যে, Generic এ আমরা ডাটা টাইপ হিসেবে তথ্য রাখতে পারি কিন্তু Non Generic এ অবজেক্ট হিসেবে তথ্য রাখতে হয়।
+
+Non Generic টাইপের Collection এর উপর দিয়ে iterate করার জন্য আমরা IEnumerable Interface ব্যবহার করে থাকি। আবার Non Generic টাইপের Collection এর সাইজ, enumerators ও synchronization methods ডিফাইন করার জন্য ICollection Interface ব্যবহার করা হয়।
+
+An enumerator is an automaton that lists, possibly with repetitions, elements of some set S, which it is said to enumerate. So now what is automaton? An automaton is a relatively self-operating machine.
+
+### Difference between IEnumerable and IEnumerator.
+
+An IEnumerator is a thing that can enumerate: it has the Current property and the MoveNext and Reset methods (which in .NET code you probably won't call explicitly, though you could). An IEnumerable is a thing that can be enumerated...which simply means that it has a GetEnumerator method that returns an IEnumerator.
+
+### Introduction to ASP.net MVC
+
+Controller ক্লাসটা ASP.net ফ্রেমওয়ার্কের একটা ক্লাস। MVC একটা ডিজাইন প্যাটার্ন বা আর্কিটেকচার, আবার এটাকে ফ্রেমওয়ার্কও বলা হয়ে থাকে। Controller নেভিগেশনের সাথে জড়িত। কোন মডেল বা কোন ভিউ ব্যবহৃত হবে সেই নির্দেশনাও দেয় Controller। Controller কে কল করে রাউটার। Router হচ্ছে ফ্রেমওয়ার্কের প্রাইমারি ইলিমেন্ট।
+
 ### Web Service ‍& Web API (Application Programming Interface)
 
-মেশিনের সাথে মেশিনের যোগাযোগ স্থাপনের জন্য Web API ব্যবহার করা হয়। সফটওয়্যারের সাথে সফটওয়্যারের যোগাযোগ যেন ডেটার মাধ্যমে হয় সেজন্য Web Service ব্যবহার করা হয়। কিছু কিছু Web API কে Web Service বলা হয়। তাহলে প্রশ্ন হচ্ছে যে, Web API কখন Web Service হয়?মাইক্রোসফট তাদের ডটনেট ফ্রেমওয়ার্কের মধ্যে Web Service কে Web API নামে ব্র্যান্ডিং করছে।
+মেশিনের সাথে মেশিনের যোগাযোগ স্থাপনের জন্য Web API ব্যবহার করা হয়। সফটওয়্যারের সাথে সফটওয়্যারের যোগাযোগ যেন ডেটার মাধ্যমে হয় সেজন্য Web Service ব্যবহার করা হয়। কিছু কিছু Web API কে Web Service বলা হয়। তাহলে প্রশ্ন হচ্ছে যে, Web API কখন Web Service হয়? মাইক্রোসফট তাদের ডটনেট ফ্রেমওয়ার্কের মধ্যে Web Service কে Web API নামে ব্র্যান্ডিং করছে।
 
 Web services are XML-based information exchange systems that use the Internet for direct application-to-application interaction.
 
