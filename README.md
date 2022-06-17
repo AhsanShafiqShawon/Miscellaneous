@@ -77,7 +77,35 @@ An IEnumerator is a thing that can enumerate: it has the Current property and th
 
 ### Introduction to ASP.net MVC
 
-Controller ক্লাসটা ASP.net ফ্রেমওয়ার্কের একটা ক্লাস। MVC একটা ডিজাইন প্যাটার্ন বা আর্কিটেকচার, আবার এটাকে ফ্রেমওয়ার্কও বলা হয়ে থাকে। Controller নেভিগেশনের সাথে জড়িত। কোন মডেল বা কোন ভিউ ব্যবহৃত হবে সেই নির্দেশনাও দেয় Controller। Controller কে কল করে রাউটার। Router হচ্ছে ফ্রেমওয়ার্কের প্রাইমারি ইলিমেন্ট।
+Controller ক্লাসটা ASP.net ফ্রেমওয়ার্কের একটা ক্লাস। MVC একটা ডিজাইন প্যাটার্ন বা আর্কিটেকচার, আবার এটাকে ফ্রেমওয়ার্কও বলা হয়ে থাকে। Controller নেভিগেশনের সাথে জড়িত। কোন মডেল বা কোন ভিউ ব্যবহৃত হবে সেই নির্দেশনাও দেয় Controller। Controller কে কল করে রাউটার। Router হচ্ছে ফ্রেমওয়ার্কের প্রাইমারি ইলিমেন্ট। cshtml এক্সটেনশনের ফাইলকে রেজর ভিউ বলা হয়। এই ফাইলে C# ও html উভয় কোড লিখা যায়। C# এর কোড লিখতে হলে @ চিহ্ন দিয়ে শুরু করতে হয়।
+
+Controller এর মেথডের যখন একাধিক রিটার্ন টাইপ থাকার সুযোগ থাকে তখন আমরা IActionResult ব্যবহার করি। এর মধ্যে কিছু রিটার্ন টাইপ হচ্ছে BadRequestResult (400), NotFoundResult (404), and OkObjectResult (200)। Views ফোল্ডারের Shared এ থাকা ফাইলগুলো সব জায়গা থেকে ব্যবহার করা যায়। Controller এর কোন মেথড যখন ভিউ রিটার্ন করে তখন সে Controller এর সেই (উক্ত মেথডের জন্য নির্দিষ্ট) ফোল্ডারের মধ্যে খোঁজে, সেখানে না পেলে Shared এর মধ্যে খোঁজে।
+
+Shared এর মধ্যে Layout নামে একটা রেজর ভিউ থাকে, যেটা ওয়েবসাইটের কমন কোডগুলো ধারণ করে। আরেকটি বিষয় Shared এর ফাইলগুলোর (Partial) নাম লিখার একটা কনভেনশন আছে, সেটা হচ্ছে নামের আগে আন্ডারস্কোর দেয়া। মাল্টিপল Controller এ ব্যবহারের জন্য এই ফাইলগুলো Shared এর মধ্যে রাখা হয়। Layout এর মধ্যে RenderBody নামে একটা অংশ থাকে, সেখানে Page Specific কোড এসে বসে যায়। আবার RenderSection নামে আরেকটা অংশ থাকে, সেখানে Page Specific স্ক্রিপ্ট এসে বসে। কিছু reusable কোড যেটা আমরা বিভিন্ন জায়গায় ব্যবহার করতে চাই, আবার সেটা পেইজের অংশও না (যেমন- হেডার, ফুটার ইত্যাদি) সেগুলোকে Partial হিসেবে লিখে রাখা হয়।
+
+Model একটা সাধারণ ক্লাস বা POCO ক্লাস। Controller এর মাধ্যমে View এ ডাটা পাস করার জন্য এবং View Controller এর মাধ্যমে ডাটা রিসিভ করার জন্য মূলত Model ক্লাস বানানো হয়। একটা View এ একটা Model ক্লাস ব্যবহার করা যাবে।
+
+A plain old CLR object, or plain old class object (POCO) is a simple object created in the .NET Common Language Runtime (CLR) that is unencumbered by inheritance or attributes.
+
+Attribute নামে আরেকটা ফিচার আছে, যেটা কোন মেথড কিভাবে এক্সিকিউট হবে সেটা নির্ধারণ করে দেয়। এগুলো মেথডের এক্সিকিউশনের আগেই কাজ করে এবং মেথডের উপর থার্ড ব্র্যাকেটের মধ্যে লিখে দিতে হয়।
+
+এক টাইপের অ্যাকশনগুলোকে একত্রে করে আমরা একটা Controller এর মধ্যে নিয়ে আসি এবং এক টাইপের Controller কে একত্রে একটা Area এর মধ্যে নিয়ে আসি। Program.cs এ MapControllerRoute অংশে Area এর ম্যাপিং টা সব উপরে রাখতে হয়। ViewStart হচ্ছে এমন একটা রেজর ভিউ যেটা সব পেজের ডিফল্ট Layout হিসেবে কাজ করে।
+
+### Dependancy Injection
+
+আমরা যখন একটা মেথডের মধ্যে আরেকটা মেথডকে কল করি, আবার তার মধ্যে আরেকটা মেথডকে কল করি তখন মেথডগুলোর মধ্যে strong dependancy তৈরি হয়ে যায়। এটা অবশ্যই ভালো ব্যাপার না। সবসময়ই চেষ্টা করতে হবে loosely coupled কোড লিখতে। এই বিষয়টা যে নীতি অনুসরণ করে বাস্তবায়ন করা হয় তাকে বলা হয় Dependancy Inversion Principle। আর এই নীতি অনুসরণের মাধ্যমে যে কাজটা করা হচ্ছে তাকে বলা হয় Dependancy Injection।
+
+আমরা মূলত Interface তৈরির মাধ্যমে কাজটা করে থাকি। সরাসরি Class A এর মধ্যে Class B কে কল না করে, আমরা একটা Interface বানাই। এরপর সেই Interface যেসকল ক্লাস ইমপ্লিমেন্ট করে তাদেরকে প্রয়োজন অনুসারে Class A এর মধ্য ব্যবহার করি। এতে ক্লাস দুইটার মধ্যে সরাসরি কোন Dependancy থাকেনা। মাইক্রোসফট IoC Container (Inversion of Control) দিয়ে কাজটা করে।
+
+IoC Container (a.k.a. DI Container) is a framework for implementing automatic dependency injection.
+
+Model ক্লাসে আমরা Dependancy Injection করিনা কারণ এই ক্লাসের মাধ্যমে আমরা বিভিন্ন রকম ডাটা নিয়ে থাকি এবং এই ডাটা পরিবর্তন হতে থাকে বা পারে। একটা ক্লাস কাজ করতে গিয়ে যখন অন্য কোন ক্লাসের উপর নির্ভর করে শুধু তখনই Dependancy Injection করা হয়।
+
+WebModule ক্লাসটা আমরা ব্যবহার করি Interface এর সাথে তার সংশ্লিষ্ট ক্লাসকে বাইন্ড করার জন্য। যাদেরকে বাইন্ড করা হয় তারা Dependancy Injection এর জন্য available হয়ে যায়।
+
+### Logger
+
+Serilog এ আমরা যে বিভিন্ন মিডিয়ামে লগ রাইট করি তাদেরকে Sink বলে। লগের বিভিন্ন লেভেল আছে যেমন, Fatal, Error, Debug, Information, Warning ইত্যাদি। Serilog মাইক্রোসফটের IoC এর সাথে মার্জ হয়ে গিয়ে একসাথে কাজ করে।
 
 ### Web Service ‍& Web API (Application Programming Interface)
 
