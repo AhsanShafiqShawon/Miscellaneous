@@ -107,6 +107,12 @@ WebModule ক্লাসটা আমরা ব্যবহার করি Int
 
 Serilog এ আমরা যে বিভিন্ন মিডিয়ামে লগ রাইট করি তাদেরকে Sink বলে। লগের বিভিন্ন লেভেল আছে যেমন, Fatal, Error, Debug, Information, Warning ইত্যাদি। Serilog মাইক্রোসফটের IoC এর সাথে মার্জ হয়ে গিয়ে একসাথে কাজ করে।
 
+Program.cs এ builder দিয়ে app বানানোর পর বেশকিছু কনফিগারেশন করা লাগে, যেসব মেথড দিয়ে এইসব কনফিগারেশন করা হয় তাদেরকে middleware বলে।
+
+### Functional Programming
+
+Functional programming is a programming paradigm in which we try to bind everything in pure mathematical functions style. It is a declarative type of programming style. Its main focus is on “what to solve” in contrast to an imperative style where the main focus is “how to solve”. It uses expressions instead of statements. An expression is evaluated to produce a value whereas a statement is executed to assign variables.
+
 ### Web Service ‍& Web API (Application Programming Interface)
 
 মেশিনের সাথে মেশিনের যোগাযোগ স্থাপনের জন্য Web API ব্যবহার করা হয়। সফটওয়্যারের সাথে সফটওয়্যারের যোগাযোগ যেন ডেটার মাধ্যমে হয় সেজন্য Web Service ব্যবহার করা হয়। কিছু কিছু Web API কে Web Service বলা হয়। তাহলে প্রশ্ন হচ্ছে যে, Web API কখন Web Service হয়? মাইক্রোসফট তাদের ডটনেট ফ্রেমওয়ার্কের মধ্যে Web Service কে Web API নামে ব্র্যান্ডিং করছে।
