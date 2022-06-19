@@ -149,6 +149,10 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 Bootstrap যেকোন পেজকে ১২টা অংশে বা কলামে ভাগ করে।
 
+### Sass (Syntactically Awesome Style Sheets)
+
+Visual Studio তে Sass ব্যবহার করতে হলে Manage Extension এ গিয়ে একটা Web Compiler ইন্সটল করে নিতে হয়। এটা IDE এর সাথে integrated হয়ে যায়। এটাকে css এর advanced version বলা যায়।
+
 ### Web Service ‍& Web API (Application Programming Interface)
 
 মেশিনের সাথে মেশিনের যোগাযোগ স্থাপনের জন্য Web API ব্যবহার করা হয়। সফটওয়্যারের সাথে সফটওয়্যারের যোগাযোগ যেন ডেটার মাধ্যমে হয় সেজন্য Web Service ব্যবহার করা হয়। কিছু কিছু Web API কে Web Service বলা হয়। তাহলে প্রশ্ন হচ্ছে যে, Web API কখন Web Service হয়? মাইক্রোসফট তাদের ডটনেট ফ্রেমওয়ার্কের মধ্যে Web Service কে Web API নামে ব্র্যান্ডিং করছে।
