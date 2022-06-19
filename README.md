@@ -159,7 +159,7 @@ Sass এ আমরা ফাংশন লিখতে পারি, এটাক
 
 ### Typescript
 
-Typescript ব্যবহারের জন্য node.js ইন্সটল করতে হবে। প্রজেক্ট বিল্ড করলেই .ts ফাইল থেকে .js ফাইল জেনারেট হয়ে যায়।
+Typescript ব্যবহারের জন্য node.js ইন্সটল করতে হবে। প্রজেক্ট বিল্ড করলেই .ts ফাইল থেকে .js ফাইল জেনারেট হয়ে যায়। Typescript এ অ্যাঙ্গেল ব্র্যাকেট দিয়ে টাইপ কাস্ট করা হয়।
 
 ### Web Service ‍& Web API (Application Programming Interface)
 
