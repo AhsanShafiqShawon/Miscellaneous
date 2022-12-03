@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------------------------------------------------------------------
+Class 1		start to 0:24:10	Introduction of course and classmates, Q&A on general matters
+		0:24:11 to 00:37:48	Difference between Competitive Programming and Technical Interview
+		00:37:48 to 00:52:20	General Q&A (Why leetcode premium?, is that needed to practice codeforces also? etc.)
+		00:52:21 to 01:27:05	Discussion on 136. Single Number (+ which sorting algorithm is used in library function [01:06:20])
+		01:27:06 to 01:54:20	Discussion on 169. Majority Element (+ why map is bad [01:29:53])
+		01:54:21 to 02:05:10	Tips on CV using example of Sudoku game project
+		02:05:11 to end		Overall Q&A
+---------------------------------------------------------------------------------------------------------------------------------------------
