@@ -9,3 +9,6 @@ Class 7
 00:59:06	Problem F [And Then There Were K]
 01:13:18	Problem G [Mocha and Math]
 01:26:01	Problem H [AND 0, Sum Big]
+01:39:07	Problem I [Rock and Lever]
+01:51:15	Problem J [We Need the Zero]
+01:59:52	Problem K [Chang and Bitwise OR]
