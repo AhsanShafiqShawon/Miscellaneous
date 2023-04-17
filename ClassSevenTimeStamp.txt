@@ -8,3 +8,4 @@ Class 7
 00:50:33 	Problem E [Petr and a Combination Lock]
 00:59:06	Problem F [And Then There Were K]
 01:13:18	Problem G [Mocha and Math]
+01:26:01	Problem H [AND 0, Sum Big]
