@@ -1,8 +1,10 @@
----------------------------------------------------------------------------------------------------------------------------------------------
-Class 7		start to 0:03:52	Introductory discussion on bit calculation
-		0:03:53 to 00:15:29	Problem A [Bitwise Exclusive Or]
-		00:15:30 to 00:29:54	Problem B [XORwice]
-		00:29:55 to 00:41:25	Problem C [Fedor and New Game]
-		00:41:26 to 00:50:32	Problem D [Preparing Olympiad]
-		00:50:33 to 00:59:05	Problem E [Petr and a Combination Lock]
----------------------------------------------------------------------------------------------------------------------------------------------
+Class 7
+
+0:00:00		Introductory discussion on bit calculation
+0:03:53		Problem A [Bitwise Exclusive Or]
+00:15:30	Problem B [XORwice]
+00:29:55	Problem C [Fedor and New Game]
+00:41:26	Problem D [Preparing Olympiad]
+00:50:33 	Problem E [Petr and a Combination Lock]
+00:59:06	Problem F [And Then There Were K]
+01:13:18	Problem G [Mocha and Math]
