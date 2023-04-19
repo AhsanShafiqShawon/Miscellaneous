@@ -13,3 +13,6 @@ Class 7
 01:51:15	Problem J [We Need the Zero]
 01:59:52	Problem K [Chang and Bitwise OR]
 02:07:41	Problem L [Array Elimination]
+02:21:51	Problem M [AGAGA XOOORRR]
+02:44:08	Problem N [Chef and Queries]
+03:21:38	Problem O [Little Girl and Maximum XOR]
