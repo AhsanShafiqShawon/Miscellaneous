@@ -16,3 +16,5 @@ Class 7
 02:21:51	Problem M [AGAGA XOOORRR]
 02:44:08	Problem N [Chef and Queries]
 03:21:38	Problem O [Little Girl and Maximum XOR]
+03:34:21	Problem P [Palindrome Pairs]
+04:03:00	Problem Q [Odd Topic]
